@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Welcome!</h2>
+
+    <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="Profile Photo" width="150">
+
+    <p>I'm <strong>Evans Kipngeno Cheruiyot</strong>, a backend developer passionate about building reliable systems, data analysis and Linux System Administration.</p>
+    <a href="/static/resume.pdf" class="btn">Download Resume</a>
+    <a href="/projects" class="btn">View Projects</a>
+
+{% endblock %}
+
+
